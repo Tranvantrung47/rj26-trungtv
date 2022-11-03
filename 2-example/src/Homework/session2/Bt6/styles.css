@@ -1,0 +1,23 @@
+.wrapper {
+    width: 250px;
+    height: 300px;
+   display: inline-block;
+    margin: 20px;
+}
+.left {
+   
+}
+img {
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.content {
+   padding-top: 130px;
+   padding-left: 30px;
+   color: white;
+}
+.content h3 {
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    width: 450px;
+    height: 220px;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.wrapper .left{
+    width: 200px;
+    float:left
+}
+
+.wrapper .left img{
+    width: 200px;
+}
+.wrapper .content{
+    float: right;
+    display: inline-block;
+    margin: 20px;
+}
+.wrapper .content h2{
+    font-size: 20px;
+}
+ .color {
+    color: green;
+ }

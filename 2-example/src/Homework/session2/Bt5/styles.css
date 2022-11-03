@@ -1,0 +1,27 @@
+.wrapper {
+width: 550px;
+height: 50px;
+margin: 10px;
+}
+
+.left {
+    float: left;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+p {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.progress {
+    margin-top: 10px;
+    float: right;
+    width: 400px;
+    height: 15px;
+}
