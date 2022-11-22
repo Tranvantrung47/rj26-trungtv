@@ -1,7 +1,8 @@
 import React from 'react';
-import anh from './images/anh1.jpg'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Index from './ReactRouter/Index';
+
 // import BtnLike from './Homework/session3/BtnLike/BtnLike';
 // import ItemUser from './feautures/ItemUser';
 // import ItemUserClass from './feautures/ItemUserClass';
@@ -14,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import ClassComponent from './component/ClassComponent';
 // import LikeBtn from './Homework/session3/Bt1like/LikeBtn';
 // import Rating from './Homework/session3/Rating/Rating';
-// import IndexMusic from './Homework/session3/Mp3/IndexMusic';
+
 // import ContentMp3 from './Homework/session3/Mp3/ContentMp3';
 // import IndexCarouse from './Homework/session3/Carousel/IndexCarouse';
 // import Bt1 from './Homework/session4/Bt1';
@@ -25,7 +26,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import Bt5 from './Homework/session4/Bt5';
 // import Bt6 from './Homework/session4/Bt6';
 // import Bt7 from './Homework/session4/Bt7';
-import Bt8 from './Homework/session4/Bt8';
+// import Bt8 from './Homework/session4/Bt8';
+// import Bt9 from './Homework/session4/Bt9';
+// import Bt10 from './Homework/session4/Bt10';
+// import Form from './Form/Form';
+// import MutipleForm from './Form/MutipleForm';
+import FormikForm from './Form/FormikForm';
+import ListUser from './Networking/ListUser';
+import PostUser from './Networking/PostUser';
+import FormUser from './Networking/FormUser';
+import ConfigRoute from './Networking/ConfigRoute';
+import ReduxTs from './ReduxEx/ReduxTs';
+
 
 function App() {
    return (
@@ -241,8 +253,23 @@ function App() {
       // <Bt5 />
       // <Bt6 />
       // <Bt7 />
-      <Bt8 />
+      // <Bt8 />
+      // <Bt9 />
+      // <Bt10 />
 
+      // <Form />
+
+      // <MutipleForm/>
+      // <FormikForm />
+      // <ListUser />
+      // <PostUser/>
+      // <FormUser/>
+      // <Index />
+      // <ConfigRoute/>
+      <ReduxTs/>
+    
+
+    
 
 
 

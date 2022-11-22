@@ -14,7 +14,7 @@ function Bt4() {
         if (inputNumber) {
             let temp = inputNumber / 10
             let chuc = parseInt(temp.toString())
-            let donvi = inputNumber % 10;
+            let donvi = inputNumber % 10;   
 
             setResultchuc(chuc);
             setResultdonvi(donvi)

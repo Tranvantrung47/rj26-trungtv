@@ -24,11 +24,15 @@ function Bt8() {
 
         for (let i = 0; i < sentence.length; i++) {
             let result = (sentence[i].length);
+            
+             console.log(result);
+               setResult(result);
+           
             // let result0 = (sentence[0].length);
             // let result1 = (sentence[1].length);
             // let result2 = (sentence[2].length);
             // let result3 = (sentence[3].length);
-            setResult(result);
+            //setResult(result);
             // setResult0(result0);
             // setResult1(result1);
             // setResult2(result2);

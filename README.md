@@ -157,3 +157,4 @@ git branch -D …
 
 
 fun rfce
+https://meet.google.com/bbo-dyge-voe
