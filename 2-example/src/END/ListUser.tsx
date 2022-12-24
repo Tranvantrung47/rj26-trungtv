@@ -41,9 +41,9 @@ function ListUser() {
 
     }
 
-    const gotoDetail = (userId: number) => {
+    const gotoCreate = () => {
 
-        navigate('/detail/' + userId);
+        navigate('/form');
     }
 
     return (
@@ -54,8 +54,8 @@ function ListUser() {
                     <tr>
                         <th scope="col">ID</th>
                         <th scope="col">Name</th>
-                        <th scope="col">URL avatar</th>
-                        <th scope="col">Address</th>
+                        {/* <th scope="col">URL avatar</th>
+                        <th scope="col">Address</th> */}
                         <th scope="col"></th>
                     </tr>
                 </thead>
@@ -66,10 +66,10 @@ function ListUser() {
                             <tr key={`user-${user.id}`}>
                                 <th scope="row">{user.id}</th>
                                 <td>{user.name}</td>
-                                <td>{user.avatar}</td>
-                                <td>{user.address}</td>
+                                {/* <td>{user.avatar}</td>
+                                <td>{user.address}</td> */}
                                 <td>
-                                    <button style={{backgroundColor:'yellow'}} onClick={() => gotoDetail(user.id)}>Details</button>
+                                   
                                     <button style={{backgroundColor:'pink'}} onClick={(id) => deleteRow(user?.id)}>Delete</button>
                                 </td>
 
@@ -81,6 +81,7 @@ function ListUser() {
                
 
             </table>
+            <button style={{backgroundColor:'yellow',width:"1020px"}} onClick={gotoCreate}>Creat</button>
         </div>
 
 

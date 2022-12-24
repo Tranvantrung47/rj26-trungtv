@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Index from './ReactRouter/Index';
-
 // import BtnLike from './Homework/session3/BtnLike/BtnLike';
 // import ItemUser from './feautures/ItemUser';
 // import ItemUserClass from './feautures/ItemUserClass';
@@ -37,6 +35,8 @@ import PostUser from './Networking/PostUser';
 import FormUser from './Networking/FormUser';
 import ConfigRoute from './Networking/ConfigRoute';
 import ReduxTs from './ReduxEx/ReduxTs';
+import Home from './END/Home';
+import Login from './END/Login';
 
 
 function App() {
@@ -266,16 +266,9 @@ function App() {
       // <FormUser/>
       // <Index />
       // <ConfigRoute/>
-      <ReduxTs/>
-    
-
-    
-
-
-
-
-
-
+      // <ReduxTs/>
+      <Home />
+      // <Login/>
 
    )
 }

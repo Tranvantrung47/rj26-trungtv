@@ -5,6 +5,7 @@ interface IUser {
     avatar: string,
     id: string,
     name: string
+    address : string
 }
 
 function DetailUser() {
@@ -35,6 +36,7 @@ function DetailUser() {
                 <img src = {user?.avatar} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">{user?.name}</h5>
+                        <p>Country : {user?.address}</p>
                         <Link to={'/form/' + user?.id} className="btn btn-primary">
                             UPDATE
                         </Link>

@@ -158,3 +158,28 @@ git branch -D …
 
 fun rfce
 https://meet.google.com/bbo-dyge-voe
+
+Props cho phép chúng ta giao tiếp giữa các components với nhau bằng cách truyền tham số qua lại giữa các components. 
+State là một đối tượng React tích hợp được sử dụng để chứa dữ liệu hoặc thông tin về Component. 
+State trong một component có thể thay đổi và bất cứ khi nào nó thay đổi, component sẽ render lại.
+
+HTTP Request hiểu một cách đơn giản là các thông tin sẽ được gửi từ khách hàng (client) lên server. Server sẽ có nhiệm vụ tìm và xử lý các loại dữ liệu, thông tin, client mong muốn. HTTP Request có thể tồn tại dưới file text hoặc dưới dạng XML hoặc dạng Json.
+
+HTTP request có tất cả 9 loại method , 2 loại được sử dụng phổ biến nhất là GET và POST
+
+GET: được sử dụng để lấy thông tin từ server theo URI đã cung cấp.
+HEAD: giống với GET nhưng response trả về không có body, chỉ có header.
+POST: gửi thông tin tới sever thông qua các biểu mẫu http.
+PUT: ghi đè tất cả thông tin của đối tượng với những gì được gửi lên.
+PATCH: ghi đè các thông tin được thay đổi của đối tượng.
+DELETE: xóa tài nguyên trên server.
+CONNECT: thiết lập một kết nối tới server theo URI.
+OPTIONS: mô tả các tùy chọn giao tiếp cho resource.
+TRACE: thực hiện một bài test loop – back theo đường dẫn đến resource.
+
+
+
+– Framework có thể hiểu là một khung chương trình, người dùng bổ sung code và tuân theo quy tắc để tạo ra ứng dụng. Còn Library chỉ cung cấp các chức năng tiện ích hay các class để sử dụng trong quá trình xây dựng ứng dụng.
+
+
+ Redux js là một thư viện Javascript và Redux js khác với Redux Framework (là một WordPress Framework).

@@ -1,0 +1,39 @@
+.form{
+	width:720px;
+	background:#fff;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	margin:calc(50vh - 220px) auto;
+	padding:20px 30px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	position:relative;
+}
+label{
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color:#5a5a5a;
+	font-weight:bold;
+}
+input::placeholder,textarea::placeholder,p{
+	color: #9F9FAF;
+	font-family: 'Roboto', sans-serif;
+}
+input[type=text]{
+	width: 60%;
+}
+input[type=submit]{
+	font-family: 'Roboto', sans-serif;
+	width: 20%;
+	font-size: 14px;
+	font-weight: 500;
+	padding:8px 12px;
+	margin:8px 0px 50px 0px;
+	border:2px solid #4285f4;
+	border-radius: 3px;
+	background:#4285f4;
+	color:#fff;
+	cursor:pointer;
+	transition:all .3s
+}

@@ -1,14 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-// import Navigation from './common/Navigation'
 import FormUser from './FormUser'
 import ListUser from './ListUser'
-import DetailUser from './DetailUser'
-
 import styles from '../ReactRouter/styles.module.css';
 import Navigation from './Navigation'
+import Login from './Login';
 
-function ConfigRoute() {
+function Home() {
+    const [isLike,setIslike] = useState (true);
+    const handleClick = () => {
+        setIslike(!isLike);
+    }
     return (
         <BrowserRouter>
             <ul className={styles.navigation}>
@@ -21,13 +23,17 @@ function ConfigRoute() {
                 <li className={styles.link}>
                     <Link to={'/form'}>Form</Link>
                 </li>
+                <li className={styles.link}>
+                    <Link to={'/'}><button style={{backgroundColor:'yellow'}} onClick={handleClick}>{isLike ?  "Login" : "Logout"}</button></Link>
+                </li>
             </ul>
             <Routes>
+                <Route path='/' element={<Login />} />
                 <Route path='/navigation' element={<Navigation />} />
                 <Route path='/list' element={<ListUser />} />
                 <Route path='/form' element={<FormUser />} />
                 <Route path='/form/:id' element={<FormUser />} />
-                <Route path='/detail/:id' element={<DetailUser />} />
+               
 
                 <Route
                     path='*'
@@ -42,4 +48,5 @@ function ConfigRoute() {
     )
 }
 
-export default ConfigRoute
+
+export default Home
